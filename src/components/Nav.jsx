@@ -1,7 +1,8 @@
 // import {logo} from '../assets/icons'
 import { navLinks } from '../constants'
-import { hamburger } from "../assets/icons"
+import { hamburger, xmark } from "../assets/icons"
 import { useState } from 'react'
+
 
 
 
@@ -17,7 +18,7 @@ const Nav = () => {
                 <p className='font-dancingscript text-hero-text font-bold text-3xl'>Hannatu Halan</p>
 
                     <div className='max-tablet:block hidden' onClick={navClickHandler}>
-                        <img src={hamburger} alt="hamburger" width={25} height={25}/>
+                        <img src={navVisible? xmark: hamburger} alt="hamburger" width={25} height={25}/>
                     </div>
 
                     <ul className='flex-row items-center gap-16 hidden tablet:flex max-tablet:absolute'>

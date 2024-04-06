@@ -4,6 +4,8 @@ import shop from './shop.svg'
 import agric from './agric.svg'
 import business from './business.svg'
 import book from './book.svg'
+import closenav from './closenav.svg'
+import xmark from './xmark.svg'
 
 export {
     logo,
@@ -11,5 +13,7 @@ export {
     book,
     business,
     agric, 
-    shop
+    shop,
+    closenav,
+    xmark
 }

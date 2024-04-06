@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="flex flex-col w-1/2 lg:mt-10 max-lg:w-full">
             <p className="text-hero-txt">Hannatu Halan Foundation</p>
             <h1 className="text-5xl max-md:text-4xl max-sm:text-3xl max-sm:leading-10 font-black font-outfit leading-normal text-hero-txt">Empowering <span className="text-bright-yellow">widows</span> <br/> and <span className="text-dark-green">orphans</span>, building brighter futures.</h1>
-            <p className='text-hero-txt opacity-50 w-9/12 text-left mt-3 max-sm:text-sm max-lg:w-full'>dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eacilisis at vero eros et accumsan et iusto odio dignissim qui ugait nulla facilisi.</p>
+            <article className='text-hero-txt opacity-50 w-9/12 text-left mt-3 max-sm:text-sm max-lg:w-full'>dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex eacilisis at vero eros et accumsan et iusto odio dignissim qui ugait nulla facilisi.</article>
            
             <button className='bg-[#63B676] text-white w-max py-3 px-8 mt-5 rounded-md font-medium cursor-pointer'>Contact us</button>
         </div>
