@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo from './logo.jpg'
 import hamburger from './hamburger.svg'
 import shop from './shop.svg'
 import agric from './agric.svg'
