@@ -8,7 +8,7 @@ const Contact = () => {
             <p className="font-bold text-sm">CONTACT</p>
             <h1 className="font-bold text-4xl sm:text-5xl font-outfit">Want to make a difference? We can do it together! </h1>
             <p className="mt-3 opacity-50 w-[90%]">
-                Do you share our passion for supporting widows and orphans? with your help, we can truly make a lasting impact. We're currently seeking donations of clothes, food, and any financial support you can offer.
+                Do you share our passion for supporting widows and orphans? with your help, we can truly make a lasting impact. {"We're"} currently seeking donations of clothes, food, and any financial support you can offer.
                 Call, email, or visit us - every bit counts.
             </p>
         </div>
