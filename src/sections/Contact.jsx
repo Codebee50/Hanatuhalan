@@ -7,7 +7,10 @@ const Contact = () => {
         <div>
             <p className="font-bold text-sm">CONTACT</p>
             <h1 className="font-bold text-4xl sm:text-5xl font-outfit">Want to make a difference? We can do it together! </h1>
-            <p className="mt-3 opacity-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum nemo rerum modi temporibus, nam fugit ea molestias esse nesciunt omnis, dolore architecto eligendi similique labore consequatur natus ut suscipit pariatur!</p>
+            <p className="mt-3 opacity-50 w-[90%]">
+                Do you share our passion for supporting widows and orphans? with your help, we can truly make a lasting impact. We're currently seeking donations of clothes, food, and any financial support you can offer.
+                Call, email, or visit us - every bit counts.
+            </p>
         </div>
 
         <div className="mt-8 w-full flex flex-wrap flex-row gap-16 justify-between">
