@@ -1,13 +1,18 @@
 import ContactCard from "../components/ContactCard"
 import { socials } from "../constants"
+import {motion} from 'framer-motion'
 
 const Contact = () => {
+ 
   return (
     <section className="padding-x padding-y max-container min-h-[70vh]">
         <div>
             <p className="font-bold text-sm">CONTACT</p>
-            <h1 className="font-bold text-4xl sm:text-5xl font-outfit">Want to make a difference? We can do it together! </h1>
-            <p className="mt-3 opacity-50 w-[90%]">
+            <motion.h1 className="font-bold text-4xl sm:text-5xl font-outfit"
+           
+            >Want to make a difference? We can do it together! </motion.h1>
+            <p className="mt-3 opacity-50 w-[90%]"
+            >
                 Do you share our passion for supporting widows and orphans? with your help, we can truly make a lasting impact. {"We're"} currently seeking donations of clothes, food, and any financial support you can offer.
                 Call, email, or visit us - every bit counts.
             </p>
@@ -15,7 +20,7 @@ const Contact = () => {
 
         <div className="mt-8 w-full flex flex-wrap flex-row gap-16 justify-between">
             <ContactCard title='LOCATION'>
-                <p className="font-light">093 Jerrell Lakes, Apt. 986, 16146-9246, East Jalynview, Texas, United States</p>
+                <p className="font-light">093 Jerrell Lakes, Apt. 986, 16146-9246, East Jalynview, Abuja Nigeria</p>
             </ContactCard>
 
             <ContactCard title='EMAIL'>
