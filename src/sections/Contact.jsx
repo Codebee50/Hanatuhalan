@@ -3,7 +3,7 @@ import { socials } from "../constants"
 
 const Contact = () => {
   return (
-    <section className="padding-x padding-y max-container min-h-screen">
+    <section className="padding-x padding-y max-container min-h-[70vh]">
         <div>
             <p className="font-bold text-sm">CONTACT</p>
             <h1 className="font-bold text-4xl sm:text-5xl font-outfit">Want to make a difference? We can do it together! </h1>
@@ -21,8 +21,8 @@ const Contact = () => {
 
 
             <ContactCard title='PHONE'>
-                <a href="tel:09128168542" className="font-light">09128168542</a>
-                <a href="tel:09128168542" className="font-light">08143015512</a>
+                <a href="tel:09128168542" className="font-light underline">09128168542</a>
+                <a href="tel:09128168542" className="font-light underline">08143015512</a>
 
             </ContactCard>
 
