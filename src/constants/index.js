@@ -1,5 +1,24 @@
 import { agric, book, business, shop } from "../assets/icons"
 import { girls, woman, orphans } from "../assets/images"
+import { whatsapp, facebook, instagram } from "../assets/icons"
+export const socials = [
+    {
+        'label': 'Facebook', 
+        'image': facebook,
+        'link': 'https://facebook.com'
+    },
+    {
+        'label': 'Whatsapp', 
+        'image': whatsapp,
+        'link': 'https://whatsapp.com'
+    },
+  
+    {
+        'label': 'Instagram', 
+        'image': instagram,
+        'link': 'https://facebook.com'
+    },
+]
 
 export const navLinks = [
     {href: '#home', label: 'Home'},

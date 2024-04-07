@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import About from "./sections/About"
 import Objectives from "./sections/Objectives"
 import Gallery from "./sections/Gallery"
+import Contact from "./sections/Contact"
 
 export default function App() {
   return (
@@ -18,6 +19,11 @@ export default function App() {
       <Objectives/>
 
       <Gallery/>
+
+      <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[450px]" id="contact-us">
+      <Contact/>
+
+      </section>
     </main>
   )
 }

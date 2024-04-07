@@ -6,6 +6,9 @@ import business from './business.svg'
 import book from './book.svg'
 import closenav from './closenav.svg'
 import xmark from './xmark.svg'
+import facebook from './facebook.svg'
+import whatsapp from './whatsapp.svg'
+import instagram from './instagram.svg'
 
 export {
     logo,
@@ -15,5 +18,8 @@ export {
     agric, 
     shop,
     closenav,
-    xmark
+    xmark,
+    facebook,
+    whatsapp,
+    instagram
 }
