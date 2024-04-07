@@ -2,6 +2,7 @@ import Nav from "./components/Nav"
 import Hero from "./sections/Hero"
 import About from "./sections/About"
 import Objectives from "./sections/Objectives"
+import Gallery from "./sections/Gallery"
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
       <About/>
       
       <Objectives/>
+
+      <Gallery/>
     </main>
   )
 }

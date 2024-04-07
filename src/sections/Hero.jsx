@@ -4,7 +4,7 @@ import { boys } from "../assets/images"
 
 const Hero = () => {
   return (
-    <section className="max-container pt-4 max-xl:p-10 scroll-mt-[600px]" id="home">
+    <section className="max-container pt-4 max-xl:p-10 max-tablet:scroll-mt-[600px]" id="home">
 
         <div className="flex flex-row w-full justify-between items-center max-lg:flex-col">
 
