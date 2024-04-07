@@ -2,8 +2,10 @@
 // import boy from '../assets/images/boy.jpg'
 import { boys } from "../assets/images"
 import { logo } from "../assets/icons"
+import { useState } from "react"
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false)
   return (
     <section className="max-container pt-4 max-xl:p-10 max-tablet:scroll-mt-[600px]" id="home">
 
@@ -18,7 +20,9 @@ const Hero = () => {
             <button className='bg-[#63B676] text-white w-max py-3 px-8 mt-5 rounded-md font-medium cursor-pointer'>Contact us</button>
         </div>
         
-        <img  src={boys} alt="" className=' relative flex-1 w-1/2 h-[600px] object-cover object-top justify-self-end max-lg:w-full max-lg:hidden'/>
+        <div className="w-1/2 h-[600px] max-lg:hidden bg-hero-small bg-cover bg-top bg-no-repeat">
+        <img  src={boys} onLoad={()=>{setImageLoaded(true)}} alt="Hannatu Halan Foundation"  className={`relative flex-1 w-full h-[600px] object-cover object-top justify-self-end max-lg:w-full ${imageLoaded?'block':'hidden'}  max-lg:hidden `}/>
+        </div>
         </div>
 
 

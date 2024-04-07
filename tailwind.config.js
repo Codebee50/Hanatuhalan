@@ -22,7 +22,7 @@ export default {
       screens: {
         "tablet": '900px'
       },
-      
+
       keyframes: {
         "open-menu": {
           "0%": { transform: "scaleY(0)" },
@@ -33,6 +33,9 @@ export default {
       animation: {
         "open-menu": "open-menu 0.5s ease-in-out forwards",
       },
+      backgroundImage:{
+        'hero-small': "url('/src/assets/images/boys-small.png')"
+      }
     },
   },
   plugins: [],
