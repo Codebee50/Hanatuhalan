@@ -5,18 +5,18 @@ export const socials = [
     {
         'label': 'Facebook', 
         'image': facebook,
-        'link': 'https://facebook.com'
+        'link': 'https://www.facebook.com/share/s9yo9DNurntbRGNt/?mibextid=qi2Omg'
     },
     {
         'label': 'Whatsapp', 
         'image': whatsapp,
-        'link': 'https://whatsapp.com'
+        'link': 'https://wa.me/+2348071589478'
     },
   
     {
         'label': 'Instagram', 
         'image': instagram,
-        'link': 'https://facebook.com'
+        'link': 'https://www.instagram.com/hannatuhalanfoundation?igsh=YzljYTk1ODg3Zg=='
     },
 ]
 

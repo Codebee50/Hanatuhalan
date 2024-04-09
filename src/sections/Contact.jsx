@@ -24,20 +24,18 @@ const Contact = () => {
             </ContactCard>
 
             <ContactCard title='EMAIL'>
-                <a href="mailto:hanatuhalanfoundation@gmail.com" className="font-light underline">hanatuhalan@gmail.com</a>
+                <a href="mailto:hannatuhalanfoundation@gmail.com" className="font-light underline">hannatuhalanfoundation@gmail.com</a>
             </ContactCard>
 
 
             <ContactCard title='PHONE'>
-                <a href="tel:09128168542" className="font-light underline">09128168542</a>
-                <a href="tel:09128168542" className="font-light underline">08143015512</a>
-
+                <a href="tel:08071589478" className="font-light underline">08071589478</a>
             </ContactCard>
 
             <ContactCard title='SOCIALS'>
                 {
                     socials.map((social)=>(
-                        <a key={social.label} href={social.link} className="flex flex-row items-center gap-2">
+                        <a key={social.label} href={social.link} className="flex flex-row items-center gap-2" >
                             {social.image && <img src={social.image} alt="icon" width={20} height={20}/>}
                             <p className="font-light underline">{social.label}</p>
                         </a>
