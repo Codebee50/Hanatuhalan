@@ -4,6 +4,7 @@ import About from "./sections/About"
 import Objectives from "./sections/Objectives"
 import Gallery from "./sections/Gallery"
 import Contact from "./sections/Contact"
+import TeamSection from "./sections/TeamSection"
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
 
       <Gallery/>
 
+      <TeamSection/>
       <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[450px]" id="contact-us">
       <Contact/>
 

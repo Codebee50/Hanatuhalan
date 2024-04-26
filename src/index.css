@@ -19,6 +19,10 @@
     margin: 0 auto;
   }
 
+  .grid-auto-con{
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  }
+
 }
 
 

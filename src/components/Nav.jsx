@@ -14,7 +14,7 @@ const Nav = () => {
   return (
     <section className='sticky top-0 bg-light-green z-50'>
         <header className="w-full flex flex-col py-4 sticky top-0 bg-light-green z-50">
-            <nav className="flex padding-x w-full justify-between max-container" aria-label='main'>
+            <nav className="flex max-xl:padding-x w-full justify-between max-container" aria-label='main'>
                 <p className='font-dancingscript text-hero-text font-bold text-3xl'>Hannatu Halan</p>
 
                     <div className='max-tablet:block hidden' onClick={navClickHandler}>
@@ -34,7 +34,7 @@ const Nav = () => {
             </nav>
             
             
-            <nav className={`${navVisible? 'py-12 h-[400px]': 'closed-h py-0'} flex w-full flex-col justify-center items-center transition-all duration-300 ease-linear overflow-hidden`} aria-label='mobile'>
+            <nav className={`${navVisible? 'py-12 h-[450px]': 'closed-h py-0'} flex w-full flex-col justify-center items-center transition-all duration-300 ease-linear overflow-hidden`} aria-label='mobile'>
                 <ul className='flex flex-col padding-x gap-16 tablet:flex w-full'>
                     {
                         navLinks.map((link)=> (
