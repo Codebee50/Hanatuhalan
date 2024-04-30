@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 const Contact = () => {
  
   return (
-    <section className="padding-x padding-y max-container min-h-[70vh]">
+    <section className="padding-x padding-y max-container">
         <div>
             <p className="font-bold text-sm">CONTACT</p>
             <motion.h1 className="font-bold text-4xl sm:text-5xl font-outfit"

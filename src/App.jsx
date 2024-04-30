@@ -22,7 +22,7 @@ export default function App() {
       <Gallery/>
 
       <TeamSection/>
-      <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[450px]" id="contact-us">
+      <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[45px]" id="contact-us">
       <Contact/>
 
       </section>
