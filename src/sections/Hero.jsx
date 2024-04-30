@@ -19,7 +19,6 @@ const Hero = () => {
            
            <a href="#contact-us">
            <button className='bg-[#63B676] text-white w-max py-3 px-8 mt-5 rounded-md font-medium cursor-pointer'>Get in Touch</button>
-
            </a>
         </div>
         
