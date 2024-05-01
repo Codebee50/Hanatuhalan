@@ -95,7 +95,8 @@ export const navLinks = [
     breakup:true,
     subLinks: [
       { href: "#about", label: "About us" },
-      { href: "#about", label: "Mision and Vision" },
+      { href: "#mv", label: "Mision and Vision" },
+      { href: "#objectives", label: "Our Objectives" },
       { href: "#team", label: "Management Staff" },
     ],
   },
