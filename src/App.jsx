@@ -5,6 +5,7 @@ import Objectives from "./sections/Objectives"
 import Gallery from "./sections/Gallery"
 import Contact from "./sections/Contact"
 import TeamSection from "./sections/TeamSection"
+import MissionVission from "./sections/MissionVission"
 
 export default function App() {
   return (
@@ -19,10 +20,12 @@ export default function App() {
       
       <Objectives/>
 
+      <MissionVission/>
+
       <Gallery/>
 
       <TeamSection/>
-      <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[450px]" id="contact-us">
+      <section className="w-full bg-[#FCFCFA] max-tablet:scroll-mt-[45px]" id="contact-us">
       <Contact/>
 
       </section>

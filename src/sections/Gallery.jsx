@@ -2,7 +2,7 @@ import { galleryImages } from "../assets/gallery"
 
 const Gallery = () => {
   return (
-    <section className="padding-x padding-y w-full max-tablet:scroll-mt-[450px]" id="gallery">
+    <section className="padding-x padding-y w-full max-tablet:scroll-mt-[45px]" id="gallery">
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-10  items-start sm:items-end">
             <div>
                 <p className="text-[0.75rem] sm:text-sm opacity-50">~ Hannatu Halan Foundation</p>

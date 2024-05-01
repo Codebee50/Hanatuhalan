@@ -17,7 +17,9 @@ const Hero = () => {
             <h1 className="text-5xl max-md:text-4xl max-sm:text-3xl max-sm:leading-10 font-black font-outfit leading-normal text-hero-txt">Empowering <span className="text-bright-yellow">widows</span> <br/> and <span className="text-dark-green">orphans</span>, building brighter futures.</h1>
             <article className='text-hero-txt opacity-50 w-9/12 text-left mt-3 max-sm:text-sm max-lg:w-full'>To provide holistic support and empowerment to widows and orphans, ensuring their socio-economic well-being, educational advancement, and emotional resilience through various programs and initiatives.</article>
            
-            <button className='bg-[#63B676] text-white w-max py-3 px-8 mt-5 rounded-md font-medium cursor-pointer'>Contact us</button>
+           <a href="#contact-us">
+           <button className='bg-[#63B676] text-white w-max py-3 px-8 mt-5 rounded-md font-medium cursor-pointer'>Get in Touch</button>
+           </a>
         </div>
         
         <div className="w-1/2 h-[600px] max-lg:hidden bg-hero-small bg-cover bg-top bg-no-repeat">

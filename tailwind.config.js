@@ -34,7 +34,8 @@ export default {
         "open-menu": "open-menu 0.5s ease-in-out forwards",
       },
       backgroundImage:{
-        'hero-small': "url('/src/assets/images/boys-small.png')"
+        'hero-small': "url('/src/assets/images/boys-small.png')",
+        'gridbackground': "url('/src/assets/images/backgroundgrid.svg')"
       }
     },
   },
