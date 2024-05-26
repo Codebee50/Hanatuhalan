@@ -13,7 +13,7 @@ const EmployeeCard = (props) => {
         <p className="mt-5 font-semibold text-black font-outfit">{props.name}</p>
         <p className="mt-[3px] font-light font-poppins text-[0.9rem]">{props.role}</p>
 
-        <div className="flex flex-row flex-wrap items-center mt-5 gap-1">
+        <div className="flex flex-row flex-wrap items-center mt-5 gap-1 hidden">
             <a href={props.contactLinks.whatsapp}><RiWhatsappLine fill="#9AA2B0"size={'1.5em'} className="hover:fill-[#128C7E]" /></a>
             <a href={props.contactLinks.whatsapp}><RiFacebookCircleLine fill="#9AA2B0" size={'1.5em'} className="hover:fill-[#17A9FD]"/></a>
         </div>
