@@ -1,5 +1,5 @@
 import { agric, book, business, shop } from "../assets/icons";
-import { girls, woman, orphans } from "../assets/images";
+import { girls, woman, orphans, bayero } from "../assets/images";
 import { whatsapp, facebook, instagram } from "../assets/icons";
 
 export const teamList = [
@@ -8,7 +8,7 @@ export const teamList = [
     name: "Lumana Bayero",
     role: "CEO",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD5m_zoJubNzb2NnxYec_6t0BX-hwyMlYi51M1K4dW_g&s",
+      bayero,
     contactLinks: {
       whatsapp: "https://wa.me/987654321",
       facebook: "https://www.facebook.com/janesmith",
