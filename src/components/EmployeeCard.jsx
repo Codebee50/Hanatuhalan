@@ -7,7 +7,7 @@ const EmployeeCard = (props) => {
     <div className="bg-[#FAFAFA] shadow-sm rounded-md min-w-[280px]  max-w-[300px] flex flex-col items-center p-4">
 
         <div>
-            <img src={props.image} alt="" width={200} height={200} className="w-[100px] h-[100px] rounded-full object-cover object-center" />
+            <img src={props.image} alt="" width={200} height={200} className="" />
         </div>
 
         <p className="mt-5 font-semibold text-black font-outfit">{props.name}</p>

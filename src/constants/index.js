@@ -5,33 +5,33 @@ import { whatsapp, facebook, instagram } from "../assets/icons";
 export const teamList = [
 
   {
-    name: "Lumana Bayero",
-    role: "CEO",
+    name: "L.B HALAN",
+    role: "FOUNDER HANNATU HALAN FOUNDATION",
     image:
-      bayero,
+      "src/assets/images/LB.jpg",
     contactLinks: {
       whatsapp: "https://wa.me/987654321",
       facebook: "https://www.facebook.com/janesmith",
     },
   },
   {
-    name: "Alex Johnson",
-    role: "Program manager",
+    name: "POLUM HALAN BAYERO",
+    role: "EXECUTIVE DIRECTOR HANNATU HALAN FOUNDATION",
     image:
-      "https://s3.amazonaws.com/arc-authors/washpost/7c01781b-acae-41f5-bc38-d0606c9f6c12.png",
-    contactLinks: {
-      whatsapp: "https://wa.me/555555555",
-      facebook: "https://www.facebook.com/alexjohnson",
-    },
-  },
-  {
-    name: "Emily Kirwin",
-    role: "Communications",
-    image:
-      "https://t4.ftcdn.net/jpg/02/25/68/67/360_F_225686732_N39vaQEWEp2NLNOpTtb5HXd4Ct9Wvcx9.jpg",
+      "src/assets/images/LB=3.jpg",
     contactLinks: {
       whatsapp: "https://wa.me/111111111",
       facebook: "https://www.facebook.com/emilybrown",
+    },
+  },
+  {
+    name: "MICHEAL LUKA BAKO",
+    role: "NATIONAL COORDINATOR HANNATU HALAN FOUNDATION",
+    image:
+      "src/assets/images/LB=2.jpg",
+    contactLinks: {
+      whatsapp: "https://wa.me/555555555",
+      facebook: "https://www.facebook.com/alexjohnson",
     },
   },
  

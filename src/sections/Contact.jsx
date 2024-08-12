@@ -20,7 +20,7 @@ const Contact = () => {
 
         <div className="mt-8 w-full flex flex-wrap flex-row gap-16 justify-between">
             <ContactCard title='LOCATION'>
-                <p className="font-light">Suite 3, Block C3, Block C6, Commercial Plaza, Area 1</p>
+                <p className="font-light">No 52, POWA SHOP, YELWA, BAUCHI, NIGERIA</p>
             </ContactCard>
 
             <ContactCard title='EMAIL'>
@@ -29,7 +29,9 @@ const Contact = () => {
 
 
             <ContactCard title='PHONE'>
-                <a href="tel:08071589478" className="font-light underline">08071589478</a>
+                <a href="tel:+2348036451186" className="font-light underline">+2348036451186</a>
+                <a href="tel:+2348169114334" className="font-light underline">+2348169114334</a>
+                <a href="tel:+2348065085527" className="font-light underline">+2348065085527</a>
             </ContactCard>
 
             <ContactCard title='SOCIALS'>
